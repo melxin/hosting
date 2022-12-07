@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.openosrs",
+    "module": "injector-plugin",
+    "version": "2.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "injector-plugin-2.0.7.jar",
+          "url": "injector-plugin-2.0.7.jar",
+          "size": 127520,
+          "sha512": "7ac644360b968d4414041683ffe7f7dc86073fc54f96d970d33172fd93f4dc60f1a82b1ba593de1345f6ae682c1f4157fcbf5b415b39c0a1b0e24d8569e9c378",
+          "sha256": "51c8ec7ca63d24456a22451f102ff2f5d5610f72faad78bcdda8f5b9d550591b",
+          "sha1": "5490d48777517f60227c34a7bfff7ee70eeb2fd1",
+          "md5": "a54399a33a03b63d20a9dff6c962dc69"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "22.0.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "30.1.1-jre"
+          },
+          "excludes": [
+            {
+              "group": "com.google.j2objc",
+              "module": "j2objc-annotations"
+            },
+            {
+              "group": "com.google.code.findbugs",
+              "module": "jsr305"
+            },
+            {
+              "group": "org.codehaus.mojo",
+              "module": "animal-sniffer-annotations"
+            },
+            {
+              "group": "com.google.errorprone",
+              "module": "error_prone_annotations"
+            }
+          ]
+        },
+        {
+          "group": "net.unethicalite",
+          "module": "deobfuscator",
+          "version": {
+            "requires": "1.0.11-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "injector-plugin-2.0.7.jar",
+          "url": "injector-plugin-2.0.7.jar",
+          "size": 127520,
+          "sha512": "7ac644360b968d4414041683ffe7f7dc86073fc54f96d970d33172fd93f4dc60f1a82b1ba593de1345f6ae682c1f4157fcbf5b415b39c0a1b0e24d8569e9c378",
+          "sha256": "51c8ec7ca63d24456a22451f102ff2f5d5610f72faad78bcdda8f5b9d550591b",
+          "sha1": "5490d48777517f60227c34a7bfff7ee70eeb2fd1",
+          "md5": "a54399a33a03b63d20a9dff6c962dc69"
+        }
+      ]
+    }
+  ]
+}
