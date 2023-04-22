@@ -38,11 +38,11 @@
         {
           "name": "injector-plugin-2.0.3.jar",
           "url": "injector-plugin-2.0.3.jar",
-          "size": 123659,
-          "sha512": "d6cfc854c525333a68d98f20d9a967685311bd92efbc91132fb98fda77d48304d4fc626ec835c1c984c614548a8b76bf5611049ccab2ffaae0e582269c10129a",
-          "sha256": "69ab903d7ceee6a555e2f7c4ad3a9dfda62b4c6b7fec0e3dcff41e68f705166d",
-          "sha1": "6bb4c1ad2801aa2eb2bf8bf93bf11fe9715623d5",
-          "md5": "6e54b343d1c6e5f78e7ef4f08f0ed551"
+          "size": 118831,
+          "sha512": "4bf7d3b50167acc1d9d9c90bd3086d7e8776c0e0e93b966e261b680cb76e72057d2736089df9ebee75373525427252b71b95340b02e8e6f257b235f5b9bdd546",
+          "sha256": "9e368645e2e8654bb55db487e24506ff1126f873eff8e7ce8016f1f48565a053",
+          "sha1": "a0e13c762c1b698b8b5f2d5b547e0bc35e61927f",
+          "md5": "40e7fda98ee8c19185083c0dac8b5f06"
         }
       ]
     },
@@ -108,7 +108,7 @@
           "group": "com.openosrs",
           "module": "deobfuscator",
           "version": {
-            "requires": "4.31.1"
+            "requires": "4.31.2"
           },
           "excludes": [
             {
@@ -129,11 +129,11 @@
         {
           "name": "injector-plugin-2.0.3.jar",
           "url": "injector-plugin-2.0.3.jar",
-          "size": 123659,
-          "sha512": "d6cfc854c525333a68d98f20d9a967685311bd92efbc91132fb98fda77d48304d4fc626ec835c1c984c614548a8b76bf5611049ccab2ffaae0e582269c10129a",
-          "sha256": "69ab903d7ceee6a555e2f7c4ad3a9dfda62b4c6b7fec0e3dcff41e68f705166d",
-          "sha1": "6bb4c1ad2801aa2eb2bf8bf93bf11fe9715623d5",
-          "md5": "6e54b343d1c6e5f78e7ef4f08f0ed551"
+          "size": 118831,
+          "sha512": "4bf7d3b50167acc1d9d9c90bd3086d7e8776c0e0e93b966e261b680cb76e72057d2736089df9ebee75373525427252b71b95340b02e8e6f257b235f5b9bdd546",
+          "sha256": "9e368645e2e8654bb55db487e24506ff1126f873eff8e7ce8016f1f48565a053",
+          "sha1": "a0e13c762c1b698b8b5f2d5b547e0bc35e61927f",
+          "md5": "40e7fda98ee8c19185083c0dac8b5f06"
         }
       ]
     }

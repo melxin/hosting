@@ -61,7 +61,7 @@
     <dependency>
       <groupId>com.openosrs</groupId>
       <artifactId>deobfuscator</artifactId>
-      <version>4.31.1</version>
+      <version>4.31.2</version>
       <scope>runtime</scope>
       <exclusions>
         <exclusion>
