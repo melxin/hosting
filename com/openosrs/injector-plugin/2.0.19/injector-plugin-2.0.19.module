@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.openosrs",
+    "module": "injector-plugin",
+    "version": "2.0.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "injector-plugin-2.0.19.jar",
+          "url": "injector-plugin-2.0.19.jar",
+          "size": 132221,
+          "sha512": "64fc4cd0671b2754b85ad8ad7d136e25d3128d09ed8c3f0f737c65c103b793911e088d63fc8aa4fec567898b9b3042e4f2b6a3b77e6f9de778aaea7b9816c683",
+          "sha256": "5c397dba46599b63031efb5f21e4d5b8d6e7b3bdcc4d565d1410a0c0f92013dd",
+          "sha1": "0c9d43f7a14d17124ae365061520c2e077d21f5a",
+          "md5": "8ab887f82616c1dd93785dd275ddca19"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "22.0.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "30.1.1-jre"
+          },
+          "excludes": [
+            {
+              "group": "com.google.j2objc",
+              "module": "j2objc-annotations"
+            },
+            {
+              "group": "com.google.code.findbugs",
+              "module": "jsr305"
+            },
+            {
+              "group": "org.codehaus.mojo",
+              "module": "animal-sniffer-annotations"
+            },
+            {
+              "group": "com.google.errorprone",
+              "module": "error_prone_annotations"
+            }
+          ]
+        },
+        {
+          "group": "net.unethicalite",
+          "module": "deobfuscator",
+          "version": {
+            "requires": "1.0.11-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "injector-plugin-2.0.19.jar",
+          "url": "injector-plugin-2.0.19.jar",
+          "size": 132221,
+          "sha512": "64fc4cd0671b2754b85ad8ad7d136e25d3128d09ed8c3f0f737c65c103b793911e088d63fc8aa4fec567898b9b3042e4f2b6a3b77e6f9de778aaea7b9816c683",
+          "sha256": "5c397dba46599b63031efb5f21e4d5b8d6e7b3bdcc4d565d1410a0c0f92013dd",
+          "sha1": "0c9d43f7a14d17124ae365061520c2e077d21f5a",
+          "md5": "8ab887f82616c1dd93785dd275ddca19"
+        }
+      ]
+    }
+  ]
+}
