@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.openosrs",
+    "module": "interface-parser-plugin",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "interface-parser-plugin-1.0.2.jar",
+          "url": "interface-parser-plugin-1.0.2.jar",
+          "size": 7395,
+          "sha512": "b668bd72ecfe4a49c4e57b604c799bb5eb0419a05a04c32ac07e97b8caeddb54cd3598fb5b47febbe9e695b53e19d3b65ae90d29953a127c02193308f66e2079",
+          "sha256": "b89ca171d3ee2ca48db7555d0998e6d4cdc173c3059ebaf894ac5d65d8adde45",
+          "sha1": "45773c81193c45ab58697316b61119f6caf8d93e",
+          "md5": "17ed7ce3d29b5aa6cfbe57620e1a9e7a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.tomlj",
+          "module": "tomlj",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "net.sourceforge.pmd",
+          "module": "pmd-core",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "net.sourceforge.pmd",
+          "module": "pmd-java",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "interface-parser-plugin-1.0.2.jar",
+          "url": "interface-parser-plugin-1.0.2.jar",
+          "size": 7395,
+          "sha512": "b668bd72ecfe4a49c4e57b604c799bb5eb0419a05a04c32ac07e97b8caeddb54cd3598fb5b47febbe9e695b53e19d3b65ae90d29953a127c02193308f66e2079",
+          "sha256": "b89ca171d3ee2ca48db7555d0998e6d4cdc173c3059ebaf894ac5d65d8adde45",
+          "sha1": "45773c81193c45ab58697316b61119f6caf8d93e",
+          "md5": "17ed7ce3d29b5aa6cfbe57620e1a9e7a"
+        }
+      ]
+    }
+  ]
+}
